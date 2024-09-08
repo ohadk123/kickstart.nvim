@@ -566,7 +566,7 @@ require('lazy').setup({
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
       local servers = {
         clangd = {},
-        asm_lsp
+        -- asm_lsp = {},
         -- gopls = {},
         -- pyright = {},
         rust_analyzer = {},
